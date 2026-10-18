@@ -1,0 +1,19 @@
+[project]
+name = "oppkey-chapter7-flet-fastapi-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Richiesdevhub", email = "risolfa@google.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "flet[all]>=1.0.4",
+]
+
+[project.scripts]
+oppkey-chapter7-flet-fastapi-app = "oppkey_chapter7_flet_fastapi_app:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
